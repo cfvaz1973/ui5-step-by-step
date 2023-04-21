@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------------------
+* In the index.html file, in the bootstrap script, data-sap-ui-theme affects the appearance of the components
+https://ui5.sap.com/#/topic/da0d2e78e5414e199507cd6365d3add2 ( contains the available themes )
+---------------------------------------------------------------------------------------------------------------
+
+        text={i18n>showHelloButtonText}
