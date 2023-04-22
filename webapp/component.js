@@ -22,11 +22,6 @@ sap.ui.define(
         };
         let oModel = new JSONModel(oData);
         this.setModel(oModel);
-        // set i18n model
-        /*        let i18nModel = new ResourceModel({
-          bundleName: "sap.ui.demo.walkthrough.i18n.i18n",
-        });
-        this.setModel(i18nModel, "i18n");*/
       },
     });
   }
