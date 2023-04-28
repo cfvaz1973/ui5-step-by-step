@@ -5,6 +5,7 @@ sap.ui.define(
     return UIComponent.extend("sap.ui.demo.walkthrough.component", {
       // metadata section defines a reference to the root view
       metadata: {
+        interfaces: ["sap.ui.core.IAsyncContentCreation"],
         manifest: "json", // metadata points to manifest.json file
       },
       // init function will instantiate the data model and i18n model
