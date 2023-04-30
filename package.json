@@ -1,15 +1,14 @@
 {
+  "name": "ui5-step-by-step",
+  "private": true,
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "UI5 Demo App - Step by Step",
+  "scripts": {
+    "start": "ui5_serve",
+    "build": "ui5 build"
+  },
   "devDependencies": {
     "@ui5/cli": "^3.0.6"
-  },
-  "name": "ui5-step-by-step",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

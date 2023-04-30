@@ -10,6 +10,7 @@ sap.ui.define(
           .getModel()
           .getProperty("/recipient/name");
         let sMsg = oBundle.getText("helloMsg", [sRecipient]);
+        // show message
         MessageToast.show(sMsg);
         // 1.show a native JavaScript alert
         // alert("Hello World");
