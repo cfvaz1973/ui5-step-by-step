@@ -1,7 +1,6 @@
 {
-  "_version": "1.1.0",
+  "_version": "1.12.0",
   "sap.app": {
-    "_version": "1.1.0",
     "id": "sap.ui.demo.walkthrough",
     "type": "application",
     "i18n": "i18n/i18n.properties",
@@ -12,21 +11,23 @@
     }
   },
   "sap.ui": {
-    "_version": "1.1.0",
     "technology": "UI5",
     "deviceTypes": {
       "desktop": true,
       "tablet": true,
       "phone": true
-    },
-    "supportedThemes": ["sap_bluecrystal"]
+    }
   },
   "sap.ui5": {
-    "_version": "1.1.0",
-    "rootView": "sap.ui.demo.walkthrough.view.App",
+    "rootView": {
+      "viewName": "sap.ui.demo.walkthrough.view.App",
+      "type": "XML",
+      "id": "app"
+    },
     "dependencies": {
-      "minUI5Version": "1.30",
+      "minUI5Version": "1.93",
       "libs": {
+        "sap.ui.core": {},
         "sap.m": {}
       }
     },
@@ -34,7 +35,9 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
+          "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+          "supportedLocales": [""],
+          "fallbackLocale": ""
         }
       }
     }

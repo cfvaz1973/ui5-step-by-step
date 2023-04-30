@@ -2,7 +2,7 @@ sap.ui.define(
   ["sap/ui/core/UIComponent", "sap/ui/model/json/JSONModel"],
   function (UIComponent, JSONModel) {
     "use strict";
-    return UIComponent.extend("sap.ui.demo.walkthrough.component", {
+    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
       // metadata section defines a reference to the root view
       metadata: {
         interfaces: ["sap.ui.core.IAsyncContentCreation"],
