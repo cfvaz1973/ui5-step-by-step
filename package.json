@@ -5,10 +5,10 @@
   "author": "SAP SE",
   "description": "UI5 Demo App - Step by Step",
   "scripts": {
-    "start": "ui5_serve",
+    "start": "ui5 serve",
     "build": "ui5 build"
   },
   "devDependencies": {
-    "@ui5/cli": "^3.0.6"
+    "@ui5/cli": "^2.0.0"
   }
 }
