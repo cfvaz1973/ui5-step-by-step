@@ -1,13 +1,9 @@
 {
-  "_version": "1.21.0",
+  "_version": "1.12.0",
   "sap.app": {
     "id": "sap.ui.demo.walkthrough",
     "type": "application",
-    "i18n": {
-      "bundleUrl": "i18n/i18n.properties",
-      "supportedLocales": [""],
-      "fallbackLocale": ""
-    },
+    "i18n": "i18n/i18n.properties",
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "applicationVersion": {
@@ -29,7 +25,7 @@
       "id": "app"
     },
     "dependencies": {
-      "minUI5Version": "1.98.0",
+      "minUI5Version": "1.93",
       "libs": {
         "sap.ui.core": {},
         "sap.m": {}
@@ -40,7 +36,7 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-          "supportedLocales": [""],
+          "supportedLocales": ["en", "pt"],
           "fallbackLocale": ""
         }
       }
