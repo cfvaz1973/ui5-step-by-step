@@ -14,12 +14,12 @@ sap.ui.define(
         UIComponent.prototype.init.apply(this, arguments);
 
         // set data model
-        var oData = {
+        let oData = {
           recipient: {
             name: "World",
           },
         };
-        var oModel = new JSONModel(oData);
+        let oModel = new JSONModel(oData);
         this.setModel(oModel);
       },
     });
