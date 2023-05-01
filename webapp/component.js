@@ -14,7 +14,7 @@ sap.ui.define(
         UIComponent.prototype.init.apply(this, arguments);
 
         // set data model
-        let oData = {
+        var oData = {
           recipient: {
             name: "World",
           },
