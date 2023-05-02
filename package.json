@@ -7,11 +7,15 @@
   "type": "module",
   "scripts": {
     "start": "ui5 serve",
-    "build": "ui5 build",
-    "proxy": "node proxy.js"
+    "build": "ui5 build"
   },
   "devDependencies": {
     "@ui5/cli": "^3.0.6",
-    "myProxy": "^x.y.z"
+    "ui5-middleware-simpleproxy": "*"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy"
+    ]
   }
 }
