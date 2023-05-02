@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "author": "SAP SE",
   "description": "UI5 Demo App - Step by Step",
+  "type": "module",
   "scripts": {
     "start": "ui5 serve",
-    "build": "ui5 build"
+    "build": "ui5 build",
+    "proxy": "node proxy.js"
   },
   "devDependencies": {
-    "@ui5/cli": "^3.0.6"
+    "@ui5/cli": "^3.0.6",
+    "myProxy": "^x.y.z"
   }
 }
