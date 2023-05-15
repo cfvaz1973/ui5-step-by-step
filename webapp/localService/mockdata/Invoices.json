@@ -9,7 +9,7 @@
   },
   {
     "ProductName": "Milk",
-    "Quantity": 4,
+    "Quantity": 10,
     "ExtendedPrice": 10,
     "ShipperName": "ACME",
     "ShippedDate": "2015-02-18T00:00:00",
